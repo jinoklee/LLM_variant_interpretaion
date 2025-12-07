@@ -1,5 +1,13 @@
 
 
+**PPT 코드 및 결과**   
+- 코드: qwen_LLM_simple.ipynb
+- 결과: variants_results.md, variant_instruct_results.md
+
+---
+
+**VEP annotation 파일: variants.annot.txt** 
+
 **prompt 내용 : ACMG/AMP 기반 변이 해석 지시 유무에 따른 결과**
 
 1. 단순 해석요구 :
