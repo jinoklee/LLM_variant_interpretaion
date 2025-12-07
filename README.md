@@ -1,6 +1,7 @@
 
 
 **PPT 코드 및 결과**   
+- 위치: PPT/
 - 코드: qwen_LLM_simple.ipynb
 - 결과: variants_results.md, variant_instruct_results.md
 
@@ -11,8 +12,9 @@
 **prompt 내용 : ACMG/AMP 기반 변이 해석 지시 유무에 따른 결과**
 
 1. 단순 해석요구 :
+   - 위치: results/
    - 코드: qwen_LLM_vep_annotation_results.ipynb
-   - 결과: results
+   - 결과: *md
   ```
       def analyze_variant_simple(model, variant_info):
               """ACMG/AMP 2015 변이 분석 """
@@ -56,8 +58,9 @@
   ```
 
 2. 해석 지시 및 결과 구조화
+   - 위치: instruct_results/
    - 코드: qwen_LLM_vep_annotation_instruct_results.ipynb
-   - 결과: instruct_results
+   - 결과: *.md
   ```
       def analyze_variant(model, variant_info):
               """ACMG/AMP 2015 변이 분석"""
