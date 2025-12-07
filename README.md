@@ -48,7 +48,7 @@
   ```
 
 2. 해석 지시 및 결과 구조화
-   - 코드: qwen_LLM_vep_annotation_instruc_results.ipynb
+   - 코드: qwen_LLM_vep_annotation_instruct_results.ipynb
    - 결과: instruct_results
   ```
       def analyze_variant(model, variant_info):
