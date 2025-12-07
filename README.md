@@ -2,7 +2,9 @@
 
 **prompt 내용 : ACMG/AMP 기반 변이 해석 지시 유무에 따른 결과**
 
-1. 단순 해석요구  
+1. 단순 해석요구 :
+   - 코드: qwen_LLM_vep_annotation_results.ipynb
+   - 결과: results
   ```
       def analyze_variant_simple(model, variant_info):
               """ACMG/AMP 2015 변이 분석 """
@@ -45,7 +47,9 @@
               return chat(model, prompt, max_tokens=30000, temperature=0.2)
   ```
 
-2. 해석 지시 및 결과 구조화   
+2. 해석 지시 및 결과 구조화
+   - 코드: qwen_LLM_vep_annotation_instruc_results.ipynb
+   - 결과: instruct_results
   ```
       def analyze_variant(model, variant_info):
               """ACMG/AMP 2015 변이 분석"""
